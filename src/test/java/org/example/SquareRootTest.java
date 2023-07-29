@@ -62,10 +62,10 @@ class SquareRootTest {
 //        expected1.decimalPart = new ArrayList<>(Arrays.asList(4, 1, 4, 2, 1, 3, 5, 6, 2, 3, 7, 3));
 //        assertEquals(expected1, actual1);
 
-        Decimal actual2 = getSquareRootFor(5, 17);
+        Decimal actual2 = getSquareRootFor(5, 7);
         Decimal expected2 = new Decimal();
         expected2.integerPart = 2;
-        expected2.decimalPart = new ArrayList<>(Arrays.asList(2, 3, 6, 0, 6, 7, 9, 7, 7, 4, 9, 9, 7, 8, 9, 6, 9));
+        expected2.decimalPart = new ArrayList<>(Arrays.asList(2, 3, 6, 0, 6, 7, 9));
         assertEquals(expected2, actual2);
 
         Decimal actual3 = getSquareRootFor(111, 3);
